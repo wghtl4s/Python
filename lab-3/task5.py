@@ -10,7 +10,6 @@ def zavdannya_5():
         start_letter = input("Введіть літеру N (початок слова, 1 символ): ").upper()
         end_letter = input("Введіть літеру P (кінець слова, 1 символ): ").upper()
 
-        # Проста перевірка на приналежність англійському алфавіту
         if (len(start_letter) == 1 and 'A' <= start_letter <= 'Z') and \
            (len(end_letter) == 1 and 'A' <= end_letter <= 'Z'):
             break
