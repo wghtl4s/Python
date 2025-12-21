@@ -18,3 +18,11 @@ class Person:
 
     def get_fullname(self):
         return f"{self.surname} {self.first_name}"
+    
+    
+if __name__ == "__main__":
+    person = Person("Шевченко", "Тарас", "1995-03-09", "Kobzar")
+    
+    print(f"Повне ім'я: {person.get_fullname()}")
+    print(f"Вік: {person.get_age()}")
+    print(f"Нікнейм: {person.nickname}")
